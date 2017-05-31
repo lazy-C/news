@@ -1,6 +1,3 @@
-/**
- * @author wsscat
- */
 var http = require('http');
 var querystring = require('querystring');
 function turingApi(param, callback, response) {

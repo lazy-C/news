@@ -11,7 +11,7 @@ var minifycss = require('gulp-minify-css');
 //压缩html模块
 var minifyhtml = require('gulp-minify-html');
 //压缩图片的模块
-var imagemin = require('gulp-imagemin')
+var imagemin = require('gulp-imagemin');
 	//定义一个压缩js的任务
 gulp.task('minify', function() {
 	gulp.src(['webroot/news/js/angular.js', 'webroot/news/js/ngPost.js', 'webroot/news/js/angular-ui-router.js', 'webroot/news/js/swiper.js'])
